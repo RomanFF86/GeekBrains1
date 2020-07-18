@@ -15,12 +15,12 @@ public class Robot implements JumpSkill, RunSkill {
     }
 
     public void jump() {
-        System.out.println(getRobotName() + " Перепрыгивает стену \n");
+        System.out.println(getRobotName() + " перепрыгивает стену ");
 
     }
 
     public void run() {
-        System.out.println(getRobotName() + " Пробегает беговую дорожку \n");
+        System.out.println(getRobotName() + " пробегает беговую дорожку ");
     }
 
     public String getRobotName() {

@@ -15,12 +15,12 @@ public class Cat implements JumpSkill, RunSkill {
     }
 
     public void jump() {
-        System.out.println(getCatName() + " Перепрыгивает стену \n");
+        System.out.println(getCatName() + " перепрыгивает стену ");
 
     }
 
     public void run() {
-        System.out.println(getCatName() + " Пробегает беговую дорожку \n");
+        System.out.println(getCatName() + " пробегает беговую дорожку ");
     }
 
     public int getRunLength() {

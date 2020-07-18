@@ -16,12 +16,12 @@ public class Human implements JumpSkill, RunSkill {
     }
 
     public void jump() {
-        System.out.println(getHumanName() + " Перепрыгивает стену \n");
+        System.out.println(getHumanName() + " перепрыгивает стену ");
 
     }
 
     public void run() {
-        System.out.println(getHumanName() + " Пробегает беговую дорожку \n");
+        System.out.println(getHumanName() + " пробегает беговую дорожку ");
     }
 
     public String getHumanName() {
